@@ -1,0 +1,23 @@
+[
+    {
+        "query": "\nSummarize the main idea and key results of each paper using the provided excerpts and metadata. Include:\n1. **Title** (from metadata)\n2. **Abstract** (if available)\n3. **Main idea and hypothesis**: It should clearly states the hypothesis which the paper is written based on it accordingly.\n4. **Summary of Results**: Key findings, conclusions, or implications.\nProvide clear and concise summaries for each paper.\n",
+        "response": "Here's a summary of the main ideas and key results of each paper based on the provided excerpts:\n\n\n**Paper 1:**\n\n1. **Title:** Protein Structure Prediction by Protein Alignments\n\n2. **Abstract:** This thesis introduces a new machine learning approach to protein structure prediction that improves accuracy by enhancing protein alignments and contact predictions.  It presents MRFalign, a novel alignment framework using Markov Random Fields to model protein families and align proteins, and a Group Graphical Lasso (GGL) method for contact prediction integrating multi-family evolutionary coupling analysis and supervised learning.  Experiments show improved accuracy over state-of-the-art methods.\n\n3. **Main Idea and Hypothesis:** The main idea is to improve template-based protein structure prediction by developing more accurate protein alignment methods.  The hypothesis is that by using Markov Random Fields (MRFs) to model long-range residue interactions and integrating joint evolutionary coupling analysis with supervised learning for contact prediction, the accuracy of protein structure prediction will significantly increase.\n\n4. **Summary of Results:** The MRFalign method, using MRFs, outperforms existing methods, especially for distantly related proteins. The GGL method for contact prediction also shows improved accuracy, particularly for proteins with limited sequence homologs.  Both methods demonstrate superior performance on large public benchmarks.\n\n\n**Paper 2:**\n\n1. **Title:** Thermodynamics Of Neutral Protein Evolution\n\n2. **Abstract:** A mathematical theory is presented to predict the number of accumulated mutations, index of dispersion, and stability distribution in evolving protein populations based on single-mutation stability effects (\u2206\u2206G values). The theory explains how neutral evolution leads to marginally stable proteins, calculates molecular clock fluctuations, and predicts structural influences on sequence evolution rates.  Simulations with lattice proteins confirm the predictions.\n\n3. **Main Idea and Hypothesis:** The main idea is to develop a quantitative theory of neutral protein evolution based on experimentally measurable thermodynamic properties (\u2206\u2206G values for single mutations). The hypothesis is that the number of accumulated mutations, the dispersion of the molecular clock, and the distribution of stabilities in an evolving protein population can be accurately predicted from the distribution of \u2206\u2206G values for single mutations.\n\n4. **Summary of Results:** The theory accurately predicts the evolution of model lattice proteins, showing that neutral evolution leads to marginally stable proteins and increased mutational robustness, manifested by extra stability and accelerated sequence evolution when the product of population size and mutation rate (N\u00b5) is large.  The predictions are confirmed by lattice protein simulations.\n\n\nI was unable to extract sufficient information from the third document to provide a meaningful summary.  The provided text appears to be a description of a dataset and associated code rather than a research paper.\n",
+        "sources": [
+            "http://arxiv.org/abs/1510.05682v1",
+            "http://arxiv.org/abs/1908.05214v1",
+            "http://arxiv.org/abs/2407.14794v2",
+            "http://arxiv.org/abs/q-bio/0605041v2",
+            "http://arxiv.org/abs/1510.05682v1",
+            "http://arxiv.org/abs/1510.05682v1",
+            "http://arxiv.org/abs/1510.05682v1",
+            "http://arxiv.org/abs/1510.05682v1",
+            "http://arxiv.org/abs/1510.05682v1",
+            "http://arxiv.org/abs/1510.05682v1",
+            "http://arxiv.org/abs/1510.05682v1",
+            "http://arxiv.org/abs/1908.05214v1",
+            "http://arxiv.org/abs/1510.05682v1",
+            "http://arxiv.org/abs/1908.05214v1",
+            "http://arxiv.org/abs/q-bio/0605041v2"
+        ]
+    }
+]

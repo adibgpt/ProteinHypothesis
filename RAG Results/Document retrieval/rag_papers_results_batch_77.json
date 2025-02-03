@@ -1,0 +1,23 @@
+[
+    {
+        "query": "\nSummarize the main idea and key results of each paper using the provided excerpts and metadata. Include:\n1. **Title** (from metadata)\n2. **Abstract** (if available)\n3. **Main idea and hypothesis**: It should clearly states the hypothesis which the paper is written based on it accordingly.\n4. **Summary of Results**: Key findings, conclusions, or implications.\nProvide clear and concise summaries for each paper.\n",
+        "response": "I cannot fully answer your question because the provided text includes many research paper citations but only excerpts from a few of them. To summarize each paper, I need the full text of each paper, not just snippets.  I can, however, provide summaries for the papers where enough information is available in the excerpts.\n\n\n**Paper 1:**\n\n1. **Title:**  Hardware Accelerated Protein Inference Framework\n\n2. **Abstract:**  Presents a hardware-accelerated framework for protein inference using a bottom-up approach.  It focuses on accelerating peptide identification during the assembling process using FPGA hardware and software co-design.\n\n3. **Main Idea and Hypothesis:** The main idea is to improve the speed of bottom-up protein inference by using hardware acceleration. The hypothesis is that a hardware/software co-design implemented on an FPGA will significantly reduce the computation time compared to a purely software solution for peptide matching and protein inference.\n\n4. **Summary of Results:** The framework, implemented on an Altera Cyclone II FPGA, achieved a speedup of approximately 19 times for the peptide matching process and 18 times for the overall protein inference process compared to a pure software implementation on a Nios II processor.  The limitations of the current prototype, including the handling of degenerate peptides, were acknowledged.\n\n\n**Paper 2:**\n\n1. **Title:** Protein Folding: A Perspective From Statistical Physics\n\n2. **Abstract:**  Introduces a statistical physics approach to the protein folding problem using the CSAW (conditioned self-avoiding walk) model.  This model simulates protein folding as a stochastic process, incorporating hydrophobic forces and hydrogen bonding.  The study aims to investigate universal aspects of protein folding.\n\n3. **Main Idea and Hypothesis:** The main idea is to model protein folding as a stochastic process using CSAW and to identify universal principles governing the process. The hypothesis is that the CSAW model, despite its simplicity, can capture key features of protein folding dynamics and reveal universal scaling laws.\n\n4. **Summary of Results:**  CSAW simulations revealed three folding stages characterized by scaling relations Rg \u223c N\u03bd, where Rg is the radius of gyration, N is the number of residues, and \u03bd takes values of approximately 3/5 (unfolded), 3/7 (pre-globule), and 2/5 (molten globule).  An analytical form of the elastic energy was proposed, fitting the simulation data and providing physical interpretations for the different terms. A theoretical limit on protein size was also suggested based on the excluded volume effect.\n\n\nI cannot provide summaries for the remaining papers due to insufficient information in the provided excerpts.\n",
+        "sources": [
+            "http://arxiv.org/abs/2101.05221v6",
+            "http://arxiv.org/abs/1403.1319v1",
+            "http://arxiv.org/abs/1002.5013v1",
+            "http://arxiv.org/abs/2412.19596v1",
+            "http://arxiv.org/abs/2202.01079v2",
+            "http://arxiv.org/abs/1002.5013v1",
+            "http://arxiv.org/abs/2101.05221v6",
+            "http://arxiv.org/abs/2101.05221v6",
+            "http://arxiv.org/abs/1002.5013v1",
+            "http://arxiv.org/abs/1002.5013v1",
+            "http://arxiv.org/abs/1403.1319v1",
+            "http://arxiv.org/abs/2101.05221v6",
+            "http://arxiv.org/abs/2101.05221v6",
+            "http://arxiv.org/abs/2202.01079v2",
+            "http://arxiv.org/abs/2101.05221v6"
+        ]
+    }
+]
