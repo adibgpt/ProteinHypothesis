@@ -1,0 +1,6 @@
+[
+    {
+        "query": "\n                Analyze the provided CSV file and generate a detailed description of each row by extracting and summarizing its features in a continuous sentence. For each row:\n\n                1. Identify and list the column names and their corresponding values.\n                2. Present the features in the row in a seamless sentence structure, describing the relationship or context between them.\n                3. Provide a summary statement based on the data, capturing notable insights, patterns, or potential interpretations.\n                ",
+        "response": "The provided data is not in CSV format; it's a series of protein sequences and their corresponding labels.  Each example shows a protein sequence associated with a label of '4' repeated multiple times. The `stage` indicates these are training examples.  There is no information to allow for a detailed description of each row as requested, beyond what is already presented.  More data or a different format is needed to fulfill the request.\n"
+    }
+]

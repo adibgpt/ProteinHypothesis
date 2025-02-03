@@ -1,0 +1,6 @@
+[
+    {
+        "query": "\n                Analyze the provided CSV file and generate a detailed description of each row by extracting and summarizing its features in a continuous sentence. For each row:\n\n                1. Identify and list the column names and their corresponding values.\n                2. Present the features in the row in a seamless sentence structure, describing the relationship or context between them.\n                3. Provide a summary statement based on the data, capturing notable insights, patterns, or potential interpretations.\n                ",
+        "response": "The provided text is not a CSV file; it's a collection of records, each containing a protein ID (NP_000009.1), a wild-type protein sequence, a mutant protein sequence resulting from a specific mutation (e.g., G439C), and an annotation classifying the mutation as pathogenic.  For example, the first record shows that the protein with ID NP_000009.1, having a specific long protein sequence, undergoes a mutation from Glycine to Cysteine at position 439, resulting in a pathogenic change.  This pattern repeats for each record, indicating that each described mutation in the protein sequence of NP_000009.1 is annotated as pathogenic.\n"
+    }
+]

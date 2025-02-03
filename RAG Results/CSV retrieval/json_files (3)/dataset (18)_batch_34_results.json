@@ -1,0 +1,6 @@
+[
+    {
+        "query": "\n                Analyze the provided CSV file and generate a detailed description of each row by extracting and summarizing its features in a continuous sentence. For each row:\n\n                1. Identify and list the column names and their corresponding values.\n                2. Present the features in the row in a seamless sentence structure, describing the relationship or context between them.\n                3. Provide a summary statement based on the data, capturing notable insights, patterns, or potential interpretations.\n                ",
+        "response": "The provided data is not in CSV format; it's a series of protein sequences and associated labels.  Each row represents a training example consisting of a protein sequence and its corresponding label.  All labels are consistently '4'.  Therefore, a detailed description for each row would be repetitive.\n\nFor example, Row 1:  The protein sequence MLSCFRLLSRHISPSLASLRPVRCCFALPLRWAPGRPLDPRQIAPRRPLAAAASSRDPTGPAAGPSRVRQ is labeled with a value of 4 across all positions, indicating it belongs to class 4 during the training stage.  This pattern repeats for all rows.  The summary is that all provided training examples belong to the same class (4).\n"
+    }
+]
