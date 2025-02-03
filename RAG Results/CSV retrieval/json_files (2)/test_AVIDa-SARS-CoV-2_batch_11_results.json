@@ -1,0 +1,6 @@
+[
+    {
+        "query": "\n                Analyze the provided CSV file and generate a detailed description of each row by extracting and summarizing its features in a continuous sentence. For each row:\n\n                1. Identify and list the column names and their corresponding values.\n                2. Present the features in the row in a seamless sentence structure, describing the relationship or context between them.\n                3. Provide a summary statement based on the data, capturing notable insights, patterns, or potential interpretations.\n                ",
+        "response": "The provided data is not in CSV format; it's a series of rows with the following columns: `VHH_sequence`, `Ag_label`, `label`, `subject_species`, `subject_name`, and `subject_sex`.  Each row represents a VHH sequence (presumably a variable heavy chain antibody fragment) from a female alpaca named Christy, which shows no binding to an Alpha+E484K cell (indicated by `label: 0` and `Ag_label: Alpha+E484K_cell`).  The VHH sequences vary slightly in their amino acid composition, suggesting different antibody clones from the same animal.  There is no further information to allow for more detailed analysis or interpretation of the variations in the VHH sequences.\n"
+    }
+]
